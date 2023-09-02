@@ -1,6 +1,4 @@
-"""
-Calcular multiplicaciones con sumas y divisiones con restas
-"""
+#Calcular multiplicaciones con sumas y divisiones con restas
 
 print("Multiplicación de sumas")
 def suma(n1,n2):

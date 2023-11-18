@@ -1,11 +1,11 @@
 import requests
 import random
 
-url = 'https://expert-potato-5gqx5g999x7jc7677-8000.app.github.dev/'
+url = 'https://scaling-lamp-g4q76465w5rvcppx4-8000.app.github.dev/'
 
-names = ["Jeremy", "jesus", "andres", "kerly", "melissa"]
-last_names = ["sanchez", "gonzales", "giron", "cordoba", "morales"]
-items = ["Frutas", "zapatos", "ropa deportiva", "detergentes", "utiles escolares"]
+names = ["Santiago", "Cristian", "David", "Emanuel", "Kerly"]
+last_names = ["Barrera", "Vargas", "Garcia", "Navarro", "Cordoba"]
+items = ["Manzana", "Pan", "Arroz", "Huevo", "Leche"]
 
 def generate_element():
     first_name = random.choice(names)

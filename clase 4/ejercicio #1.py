@@ -1,15 +1,20 @@
-import random
+class nodo:
+    dato = None
+    apuntador = None
+    def __init__(self,dato,apuntador):
+        self.dato = dato
+        self.apuntador = apuntador
+    def __str__(self):
+        return f"{self.dato}"
 
-def crear_lista_con_for(num_nodos):
-    lista_generada = []
-    for i in range(num_nodos):
-        numero_aleatorio = random.randint(i, i + 10)
-        lista_generada.append(numero_aleatorio)
-    return lista_generada
-
-num_nodos = int(input("Ingrese el número de nodos a crear: "))
-lista_generada = crear_lista_con_for(num_nodos)
-print("Lista generada:", lista_generada)
-
-    
-
+        
+print ("-"*30)
+print ("Verificacion por nodo de un numero")
+print ("_"*30)
+obj1 = nodo(20,None)
+obj2 = nodo(20,None)
+print (obj1)
+print (obj2)
+print ("_"*30)
+print (obj1 == obj2)
+print ("-"*30)
